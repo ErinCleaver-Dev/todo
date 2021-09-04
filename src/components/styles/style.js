@@ -15,7 +15,7 @@ export const Button = styled.button`
         background-color: #63708c;
     }
     :disabled {
-        background-color: #c7e0e8;
+        background-color: rgb(83 109 117);
         border: #63708c;
     }
 

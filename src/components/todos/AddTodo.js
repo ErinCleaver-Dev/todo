@@ -10,7 +10,6 @@ const AddTodo = ({dispatch}) => {
             <form onSubmit={e=> {
                 e.preventDefault();
                 if(!input.value.trim())  {
-                    console.log("testing if null")
                     return;
                 }
                 dispatch(addTodo(input.value));
